@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.dist-info/
+dist/
+build/
+*.so
+
+# Flask-related
+instance/
+.pytest_cache/
+*.log
+
+# Virtual environment
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# PyCharm / VS Code config files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS system files
+.DS_Store
+
+# Terraform files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+*.tfstate.*
+crash.log
+
+# Ignore any .tfvars files (since they may contain sensitive info)
+*.tfvars
